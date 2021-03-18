@@ -1,0 +1,31 @@
+{
+  "name": "node-chat",
+  "version": "1.0.0",
+  "description": "A simple chat with node",
+  "main": "app.js",
+  "dependencies": {
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "jquery": "^3.4.1",
+    "socketio": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"test\"",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DayaneRL/node-chat.git"
+  },
+  "keywords": [
+    "chat",
+    "node"
+  ],
+  "author": "Dayane Lima",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DayaneRL/node-chat/issues"
+  },
+  "homepage": "https://github.com/DayaneRL/node-chat#readme"
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <title>Private Chat</title>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js"></script>
+   <script src="javas.js"></script>
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="nickname_container" id="nick">
+
+ <h2>Type your nickname:</h2>
+  <form id="submit">
+    <input type="text" id="nickname" />
+    <button type="submit">Entrar</button>
+  </form>
+
+</div>
+
+<div id="chat" hidden>
+
+ <div class="menu" >
+ <div class="name" id="name"></div>
+ <div class="last" id="time"></div>
+ </div>
+
+ <ol class="chat" id="teste">
+ 
+ </ol>
+ 
+  <div id='bottom'></div>
+    <input class="textarea" type="text" placeholder="Type here!" id="textarea" />
+    <button id="enviar">Enviar</button>
+  
+</div>
+ 
+</body>
+</html>
